@@ -45,6 +45,24 @@ For example:
 ./zzz-signal-url.sh /mnt/games/Zenless\ Zone\ Zero/games/ZenlessZoneZero\ Game
 ```
 
+### Run directly from GitHub
+
+You can run the script directly without cloning the repository.
+
+**Default Steam installation:**
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/paradox12357/zzz-signal-url/main/zzz-signal-url.sh | bash
+```
+
+**Custom installation path:**
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/paradox12357/zzz-signal-url/main/zzz-signal-url.sh | bash -s -- /path/to/Zenless\ Zone\ Zero/games/ZenlessZoneZero\ Game
+```
+
+The custom path should point to the `ZenlessZoneZero Game` directory.
+
 ## Getting the URL
 
 1. Launch **Zenless Zone Zero**.
